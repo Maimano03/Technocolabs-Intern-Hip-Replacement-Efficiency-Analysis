@@ -1,52 +1,65 @@
-# 🏥 Hip Replacement Efficiency Analysis  
-### Technocolabs Softwares Inc. – Data Analyst Internship Project (2 Months)
+# EffiCare 🏥📊
+**Healthcare Analytics Project – Improving Efficiency in Total Hip Replacement Care**
+
+---
 
 ## 📌 Project Overview  
-This project was completed as part of a 2-month Data Analyst Internship at Technocolabs. The aim of this project is to analyze hip replacement procedure data and evaluate efficiency, cost patterns, and key performance indicators using data analytics and interactive dashboards.
+Healthcare providers face the dual challenge of **improving patient outcomes** while **managing costs effectively**.  
+This project analyzes **Hospital Inpatient Discharge Data (Total Hip Replacement)** to uncover insights on:  
+- Patient demographics  
+- Hospital performance  
+- Length of stay  
+- Cost vs. charges  
+- Efficiency and resource utilization  
 
-The project focuses on converting raw healthcare data into meaningful insights that support data-driven decision making.
+The ultimate goal is to help healthcare organizations identify **efficiency gaps** and improve the quality of care.  
 
-## 🎯 Objectives  
-- Clean and preprocess healthcare datasets  
-- Perform exploratory data analysis (EDA)  
-- Analyze efficiency and performance metrics  
-- Build interactive dashboards for visualization  
-- Support healthcare decision making using data  
+---
 
-## 🛠️ Tools & Technologies  
-- Python  
-- Jupyter Notebook  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Power BI (Interactive Dashboards)
+## 🎯 Problem Statement  
+Hospitals often struggle to balance **high-quality patient care** with **cost efficiency**.  
+Using real inpatient discharge data, this project aims to:  
+1. Detect inefficiencies in hospital operations.  
+2. Benchmark hospitals on cost, length of stay, and outcomes.  
+3. Build data-driven features (e.g., efficiency index) for advanced analysis.  
 
-## 📂 Project Structure  
-- Data preprocessing notebooks  
-- Exploratory Data Analysis (EDA) notebooks  
-- Feature engineering notebooks  
-- Analysis and visualization files  
-- Power BI dashboard files  
-- Final project report and documentation  
+---
 
-## 📊 Key Analysis & Dashboard  
-- Studied trends related to hip replacement efficiency  
-- Analyzed cost and performance indicators  
-- Created interactive dashboards to visualize KPIs  
-- Compared efficiency metrics across different dimensions  
-- Identified areas for improvement in healthcare operations  
+## 📂 Dataset  
+- **Source**: Hospital Inpatient Discharges (Total Hip Replacement)  
+- **Rows**: 26,594  
+- **Columns**: 30  
+- **Includes**: Patient demographics, hospital info, diagnosis/procedure codes, costs, and outcomes.  
 
-## 🚀 How to Run  
-1. Clone the repository  
-2. Open the Jupyter Notebook files  
-3. Run the notebooks step by step  
-4. Open the Power BI dashboard file to explore interactive insights  
+---
 
-## 📈 Outcome  
-This project demonstrates the use of data analytics in healthcare and highlights how interactive dashboards can help communicate insights effectively to both technical and non-technical users.
+## 🛠️ Project Workflow  
 
-## 👩‍💻 Author  
-**Maithily Manohar**  
-Data Analyst Intern – Technocolabs  
+### 1. Data Preprocessing  
+- Handle missing values  
+- Standardize categorical fields  
+- Detect and treat outliers  
+- Engineer new features (charge-to-cost ratio, efficiency index)  
 
-## 📜 License  
-MIT License
+### 2. Exploratory Data Analysis (EDA)  
+- Patient demographics trends  
+- Hospital efficiency comparisons  
+- Cost vs. outcome visualizations  
+
+### 3. Predictive Modeling (Future Scope)  
+- Length of stay prediction  
+- Cost prediction  
+- Risk stratification  
+
+### 4. Dashboard (Future Scope)  
+- Interactive hospital benchmarking dashboard  
+- KPIs: Efficiency index, avg. LOS, cost-to-charge ratios  
+
+---
+
+## 🚀 Getting Started  
+
+### Clone the Repository  
+```bash
+git clone https://github.com/Technocolabs100/Hip-Replacement-Care-EffiCare.git
+cd EffiCare
